@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 650" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 650" width="1180" height="650">
   <defs>
     <!-- Background Terminal Glow -->
     <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
@@ -34,9 +34,9 @@
       <rect width="4" height="2" fill="#000" opacity="0.3"/>
     </pattern>
 
-    <!-- Circular Mask for Profile Picture -->
+    <!-- Circular Mask for Optional Profile Picture -->
     <clipPath id="avatarClip">
-      <circle cx="230" cy="330" r="120" />
+      <circle cx="230" cy="300" r="120" />
     </clipPath>
   </defs>
 
@@ -71,27 +71,63 @@
     <rect x="460" y="70" width="650" height="520" rx="12" fill="#020617" stroke="#0891B2" stroke-width="1.5" stroke-opacity="0.6" />
 
 
-    <!-- ======================== LEFT SIDE: PROFILE IMAGE ======================== -->
-    
-    <image href="PASTE_YOUR_BASE64_CODE_HERE" x="110" y="210" width="240" height="240" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.5s" fill="freeze"/>
-    </image>
+    <!-- ======================== LEFT SIDE: ASCII ART ======================== -->
+    <text x="50" y="100" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#0891B2" xml:space="preserve" opacity="0.85">
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⣿⣿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠛⠛⠛⠋⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⠀⠀⠀⢀⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣤⡀⠀⠀⠀⠀</tspan>
+      <tspan x="50" dy="12">⠀⠀⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣄⡀⠀</tspan>
+      <tspan x="50" dy="12">⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦</tspan>
+      <tspan x="50" dy="12">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="50" dy="12">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="50" dy="12">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="50" dy="12">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+      <tspan x="50" dy="12">⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿</tspan>
+    </text>
 
-    <!-- Glowing Border Around Image -->
-    <circle cx="230" cy="330" r="122" fill="none" stroke="#06B6D4" stroke-width="2" filter="url(#neonGlow)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.5s" fill="freeze"/>
-    </circle>
+    <!-- 
+    ========================================================================
+    WANT TO USE YOUR BASE64 IMAGE INSTEAD OF THE ASCII ART? 
+    1. Delete the entire <text> block above (lines 66 to 97).
+    2. Uncomment the three lines of code below.
+    3. Paste your Base64 string directly into the href="" attribute!
+    ========================================================================
+    -->
+    <!-- 
+    <image href="PASTE_YOUR_BASE64_HERE" x="110" y="180" width="240" height="240" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="0.5s" fill="freeze"/></image>
+    <circle cx="230" cy="300" r="122" fill="none" stroke="#06B6D4" stroke-width="2" filter="url(#neonGlow)" />
+    -->
 
     <!-- ======================== RIGHT SIDE: TERMINAL DATA ======================== -->
     <g transform="translate(480, 0)">
       
       <!-- SYSTEM.INFO Header -->
-      <text x="0" y="105" fill="#D946EF" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">SYSTEM.INFO</text>
-      <text x="0" y="125" fill="#D946EF" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">faseeh@devos</text>
-      <line x1="115" y1="120" x2="610" y2="120" stroke="#D946EF" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
+      <text x="0" y="95" fill="#D946EF" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">SYSTEM.INFO</text>
+      <text x="0" y="115" fill="#D946EF" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">faseeh@devos</text>
+      <line x1="115" y1="110" x2="610" y2="110" stroke="#D946EF" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
 
       <!-- Matrix Structured Data -->
-      <text x="0" y="160" font-family="'Fira Code', Consolas, monospace" font-size="13.5" xml:space="preserve">
+      <text x="0" y="150" font-family="'Fira Code', Consolas, monospace" font-size="13.5" xml:space="preserve">
         <tspan x="0" dy="0" fill="#06B6D4">. Subject:       </tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">Muhammad Faseeh Ali</tspan>
         <tspan x="0" dy="25" fill="#06B6D4">. Role:          </tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">AI / Full-Stack Engineer</tspan>
         <tspan x="0" dy="25" fill="#06B6D4">. Origin:        </tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">Lahore, Pakistan</tspan>
@@ -106,25 +142,31 @@
       </text>
 
       <!-- Contact Header -->
-      <text x="0" y="440" fill="#10B981" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">- Contact</text>
-      <line x1="85" y1="435" x2="610" y2="435" stroke="#10B981" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
+      <text x="0" y="430" fill="#10B981" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">- Contact</text>
+      <line x1="85" y1="425" x2="610" y2="425" stroke="#10B981" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
 
       <!-- Contact Data -->
-      <text x="0" y="470" font-family="'Fira Code', Consolas, monospace" font-size="13.5" xml:space="preserve">
+      <text x="0" y="460" font-family="'Fira Code', Consolas, monospace" font-size="13.5" xml:space="preserve">
         <tspan x="0" dy="0" fill="#06B6D4">. Grid.Mail:     </tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">fashiali412@gmail.com</tspan>
         <tspan x="0" dy="25" fill="#06B6D4">. Grid.Portfolio:</tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">www.link.com</tspan>
         <tspan x="0" dy="25" fill="#06B6D4">. Grid.Github:   </tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">MuhammadFaseehAli</tspan>
       </text>
 
       <!-- Live Stats Header -->
-      <text x="0" y="555" fill="#10B981" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">- Live Stats</text>
-      <line x1="115" y1="550" x2="610" y2="550" stroke="#10B981" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
+      <text x="0" y="545" fill="#10B981" font-family="'Fira Code', Consolas, monospace" font-size="14" font-weight="bold">- Live Stats</text>
+      <line x1="115" y1="540" x2="610" y2="540" stroke="#10B981" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
       
       <!-- Blinking Cursor & Text -->
-      <rect x="0" y="566" width="8" height="15" fill="#06B6D4">
+      <rect x="0" y="556" width="8" height="15" fill="#06B6D4">
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
       </rect>
-      <text x="18" y="578" fill="#F8FAFC" font-family="'Fira Code', Consolas, monospace" font-size="13">See live GitHub stats badges below in README ↓</text>
+      <text x="18" y="568" fill="#F8FAFC" font-family="'Fira Code', Consolas, monospace" font-size="13">See live GitHub stats badges below in README ↓</text>
     </g>
+
+    <!-- ======================== ANIMATED SCANLINE ======================== -->
+    <rect x="0" y="0" width="1140" height="3" fill="#06B6D4" filter="url(#intenseGlow)" opacity="0.8">
+      <animate attributeName="y" values="50; 605; 50" dur="6s" repeatCount="indefinite" />
+    </rect>
+
   </g>
 </svg>
