@@ -119,16 +119,29 @@
       <line x1="85" y1="435" x2="610" y2="435" stroke="#10B981" stroke-width="1" stroke-dasharray="2 2" opacity="0.6"/>
 
       <!-- Contact Data -->
-      <text x="0" y="470" font-family="'Fira Code', Consolas, monospace" font-size="13.5" xml:space="preserve">
-  <tspan x="0" dy="0" fill="#06B6D4">. Mail:     </tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">fashiali412@gmail.com</tspan>
-  <tspan x="0" dy="25" fill="#06B6D4">. Portfolio:</tspan><tspan fill="#475569">................. </tspan><tspan fill="#F8FAFC">www.link.com</tspan>
+    <text x="0" y="470" font-family="'Fira Code', Consolas, monospace" font-size="13.5" xml:space="preserve">
   
-  <!-- LinkedIn Link Starts Here -->
+  <!-- Email Link -->
+  <a href="mailto:fashiali412@gmail.com" target="_blank">
+    <tspan x="0" dy="0" fill="#06B6D4">. Mail:     </tspan>
+    <tspan fill="#475569">................. </tspan>
+    <tspan fill="#F8FAFC" style="cursor: pointer; text-decoration: underline;">fashiali412@gmail.com</tspan>
+  </a>
+
+  <!-- Portfolio Link -->
+  <a href="https://www.link.com" target="_blank">
+    <tspan x="0" dy="25" fill="#06B6D4">. Portfolio:</tspan>
+    <tspan fill="#475569">................. </tspan>
+    <tspan fill="#F8FAFC" style="cursor: pointer; text-decoration: underline;">www.link.com</tspan>
+  </a>
+
+  <!-- LinkedIn Link -->
   <a href="https://www.linkedin.com/in/faseeh-ali-57ba152a0/" target="_blank">
     <tspan x="0" dy="25" fill="#06B6D4">. Linkedin:   </tspan>
     <tspan fill="#475569">................. </tspan>
-    <tspan fill="#F8FAFC" style="text-decoration: underline; cursor: pointer;">faseeh-ali</tspan>
+    <tspan fill="#F8FAFC" style="cursor: pointer; text-decoration: underline;">faseeh-ali</tspan>
   </a>
+
 </text>
 
       <!-- Live Stats Header -->
